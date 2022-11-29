@@ -1,0 +1,44 @@
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: Creepster;
+    
+}
+
+@font-face {
+    font-family:Creepster;
+    src:url(Creepster-Regular.ttf);
+}
+
+body {
+    background-image: linear-gradient(red, blue);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+
+.area {
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient( lightblue, lightsalmon);
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+
+.container {
+    background-color: red;
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 200px;    
+    /* background-image: linear-gradient(red, blue); */
+   
+
+}
+
